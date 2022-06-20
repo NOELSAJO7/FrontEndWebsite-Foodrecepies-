@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: radial-gradient(#a17944,rgb(0, 0, 0) 80%);
+   }
+   .flex-container{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   div{
+       font-size: larger;
+       color: blanchedalmond;
+       margin-top: 40px;
+   }
+
+   #title{
+    height: 10px;
+       width: 500px;
+       padding: 30px;
+       font-size: 20px; 
+       border-radius: 25px;  
+   }
+
+   #ingredients{
+       padding: 15px;
+    height: 10vh;
+    width: 70vw;
+    font-size: 20px;
+    border-radius: 25px;
+   }
+   #recipe{
+    padding: 15px;
+       height: 40vh;
+       width: 70vw;
+       font-size: 20px;
+       border-radius: 25px;
+   }
+
+/*----------- all the buttons ------------ */
+  
+   a{  
+
+       padding: 5px 12px 5px 20px;
+       color: #a17944;
+       text-decoration: none;
+       background-color: black;
+   }
+   #submit:hover{  
+    background-color:black;
+    color: #a17944;
+}
+
+.home{
+    text-align: center;
+    font-size: 25px;
+    position: fixed;
+    left: 20px;
+    top: 5px; 
+    width: 110px;  
+}
+.back{
+    text-align: center;
+    width: 102px;
+    height: 40px;
+    font-size: 25px;
+       position: fixed;
+       right: 20px;
+       top: 5px;; 
+   }
+
+#submit{
+    position: fixed;
+    bottom: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 41px;
+       width: 120px;
+       color: black;
+       background-color: #a17944;
+    
+}
+
+/*----------- all the buttons ------------ */
+
+.button a:hover{
+color: black;
+background-color: #a17944;
+}
